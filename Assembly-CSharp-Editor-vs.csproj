@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{9032058D-51F8-60A5-2536-BD37F3295468}</ProjectGuid>
+	<ProjectGuid>{2E67655C-E42A-1E94-E88E-0905939731D1}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -46,20 +46,20 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs" />
-     <Compile Include="Assets\Editor\ImageEffects\AntialiasingEditor.cs" />
-     <Compile Include="Assets\Editor\ImageEffects\BloomAndFlaresEditor.cs" />
-     <Compile Include="Assets\Editor\ImageEffects\BloomEditor.cs" />
-     <Compile Include="Assets\Editor\ImageEffects\CameraMotionBlurEditor.cs" />
-     <Compile Include="Assets\Editor\ImageEffects\ColorCorrectionCurvesEditor.cs" />
-     <Compile Include="Assets\Editor\ImageEffects\ColorCorrectionLookupEditor.cs" />
-     <Compile Include="Assets\Editor\ImageEffects\DepthOfFieldDeprecatedEditor.cs" />
-     <Compile Include="Assets\Editor\ImageEffects\DepthOfFieldEditor.cs" />
-     <Compile Include="Assets\Editor\ImageEffects\EdgeDetectionEditor.cs" />
-     <Compile Include="Assets\Editor\ImageEffects\NoiseAndGrainEditor.cs" />
-     <Compile Include="Assets\Editor\ImageEffects\SunShaftsEditor.cs" />
-     <Compile Include="Assets\Editor\ImageEffects\TonemappingEditor.cs" />
-     <Compile Include="Assets\Editor\ImageEffects\VignetteAndChromaticAberrationEditor.cs" />
+     <Compile Include="Assets\SpaceShip Assets\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs" />
+     <Compile Include="Assets\SpaceShip Assets\Editor\ImageEffects\AntialiasingEditor.cs" />
+     <Compile Include="Assets\SpaceShip Assets\Editor\ImageEffects\BloomAndFlaresEditor.cs" />
+     <Compile Include="Assets\SpaceShip Assets\Editor\ImageEffects\BloomEditor.cs" />
+     <Compile Include="Assets\SpaceShip Assets\Editor\ImageEffects\CameraMotionBlurEditor.cs" />
+     <Compile Include="Assets\SpaceShip Assets\Editor\ImageEffects\ColorCorrectionCurvesEditor.cs" />
+     <Compile Include="Assets\SpaceShip Assets\Editor\ImageEffects\ColorCorrectionLookupEditor.cs" />
+     <Compile Include="Assets\SpaceShip Assets\Editor\ImageEffects\DepthOfFieldDeprecatedEditor.cs" />
+     <Compile Include="Assets\SpaceShip Assets\Editor\ImageEffects\DepthOfFieldEditor.cs" />
+     <Compile Include="Assets\SpaceShip Assets\Editor\ImageEffects\EdgeDetectionEditor.cs" />
+     <Compile Include="Assets\SpaceShip Assets\Editor\ImageEffects\NoiseAndGrainEditor.cs" />
+     <Compile Include="Assets\SpaceShip Assets\Editor\ImageEffects\SunShaftsEditor.cs" />
+     <Compile Include="Assets\SpaceShip Assets\Editor\ImageEffects\TonemappingEditor.cs" />
+     <Compile Include="Assets\SpaceShip Assets\Editor\ImageEffects\VignetteAndChromaticAberrationEditor.cs" />
      <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />
@@ -201,9 +201,9 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
-      <Project>{5046DC97-EFD4-F3D7-70A8-3C2FC3296C04}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
+      <Project>{2574C794-DA02-A8F8-8732-33138443F073}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-CSharp-vs.csproj">
-      <Project>{354AE32F-D2DE-3115-093D-BED19C0F5619}</Project>      <Name>Assembly-CSharp-vs</Name>    </ProjectReference>
+      <Project>{75AC4C40-F16B-156B-5A80-9157E3301C82}</Project>      <Name>Assembly-CSharp-vs</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
